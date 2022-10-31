@@ -1,0 +1,228 @@
+footer{
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 212px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+
+.footer .office{
+    max-width: 400px;
+    width: 100%;
+}
+
+.office p{
+    margin-bottom: 10px;
+    margin-top: 8px;
+    font-size: small;
+    }
+.footer .company{
+    padding-top: 40px;
+}    
+
+
+.office-content{
+    font-size: 15px!important;
+}
+
+.bottom-footer {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1150px !important;
+    width: 94%;
+    margin: auto;
+}
+
+.social-icons a{
+    margin-bottom: 2rem;
+}
+.company {
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.company a{
+    color: rgb(0, 0, 0);
+}
+.company p{
+    font-size: 14px;
+}
+
+.company,
+.social,
+.contact {
+    margin-bottom: 30px;
+}
+
+
+
+.bottom-footer hr {
+    height: 1px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.bottom-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.bottom-text a{
+    color: rgb(64, 64, 64);
+}
+
+
+.bottom-text .privacy{
+   max-width: 400px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 1rem;
+}
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+
+.rights{
+    text-align: center;
+}
+
+.social-icons i {
+    padding: 8px;
+    border: 2px solid #606060;
+    margin-right: 5px;
+    color:#606060;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.mobile-icons{
+    display: flex;
+    max-width: 240px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.mobile-icons i {
+    font-size: 22px;
+    margin: auto !important;
+    padding: 10px;
+    border: 2px solid #606060;
+    color:#606060;
+    border-radius: 50px;
+    transition: .3s;
+    align-items: center;
+    text-align: center !important;
+    visibility: hidden;
+    margin: auto ;
+}
+
+
+
+.contact a {
+    color:#000000;
+    transition: .3s;
+    font-size: 14px;
+
+}
+
+
+
+.office img{
+height: 64px;
+width: 151.11109924316406px;
+border-radius: 6px;
+margin-bottom: 14px;
+
+}
+
+
+
+.second-item{
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mobile-privacy{
+    visibility: hidden;
+    /* margin-top: 20px; */
+}
+
+
+.mobile-privacy a{
+    color: rgb(43, 43, 43);
+    font-weight: 600;
+    padding-bottom: 10px !important;
+
+}
+
+@media  (max-width: 730px) {
+   .privacy{
+    visibility: hidden;
+    padding: 0px 0;
+
+   }
+
+   .social-icons{
+    visibility: hidden;
+   }
+
+   
+.mobile-icons i {
+    
+    visibility: visible;
+}
+
+.mobile-privacy{
+    visibility: visible;
+}
+
+.third-item{
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .company{
+    padding-top: 0px;
+}
+
+
+.bottom-text .privacy{
+   
+    margin-bottom: -1rem;
+ }
+
+ .footer .office{
+    margin-bottom: -30px;
+}
+
+.office p{
+    margin-bottom: 0px;
+    
+    }
+.footer .company{
+    padding-top: 00px;
+}  
+ 
+}

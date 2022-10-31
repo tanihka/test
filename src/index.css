@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.hero-color {
+  background-color: #6263D5;
+  max-width: 1440px;
+  padding-left: 15.3%;
+  padding-right: 15.3%;
+}
+
+.hero {
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding-top: 6rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: auto;
+  color: #F2F2F2;
+  padding-bottom: 2rem;
+}
+
+.hero .image {
+  width: 315.44px;
+  height: 540px;
+}
+
+.hero .content h1 {
+  max-width: 496px;
+  width: 100%;
+  font-size: 56px;
+  line-height: 72px;
+}
+
+.image img {
+  width: 315.44px;
+  height: 540px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+
+}
+
+.text {
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.icon i {
+  font-size: 3px;
+  color: black;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #FFFBEA;
+}
+
+.heading p .bold-heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.heading p {
+  font-size: 15px;
+}
+
+.goodies {
+  font-size: 13px;
+  color: #838383;
+  margin: 30px 0;
+}
+
+.heading p .cut {
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+
+.playStoteBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid transparent;
+}
+
+.playStoteBtn-second {
+  /* padding-top: 8px; */
+  margin-top: -4px;
+  border: 1px solid transparent;
+}
+
+.playstore {
+  display: flex;
+  align-items: center;
+  width: auto;
+  transition: .3s;
+  /* border: 1px solid white; */
+}
+
+
+.playstore img {
+  width: 187px;
+  height: 66px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+@media (max-width: 1170px){
+  .hero-color,
+  .faqWrapper {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .feature1 {
+    padding: 2.2rem 3% 2rem 3% !important;
+
+  }
+
+}
+
+@media (max-width: 800px) {
+  .hero .content h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    font-feature-settings: 'case' on, 'ss02' on;
+    color: #FFFFFF;
+  }
+
+  .feature1 .content h1 {
+    font-weight: 600 !important;
+    font-size: 32px !important;
+    line-height: 140% !important;
+    text-align: center !important;
+    color: #102437;
+
+  }
+  .list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  
+
+
+  footer {
+    padding: 0 16px !important;
+  }
+
+  .contactUs,
+  .footer,
+  .hero,
+  .faq,
+  .glide,
+  .bottom-text {
+    flex-direction: column;
+    /* padding-left: 16px;
+    padding-right: 16px; */
+  }
+
+  .feature1 {
+    flex-direction: column-reverse !important;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+  }
+
+  .just-test {
+    display: none;
+  }
+
+  .row textarea {
+    width: 340px !important;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .playStoteBtn {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .reverse {
+    flex-direction: column !important;
+  }
+
+  .hero .image,
+  .feature1 .image {
+    margin-top: 2rem;
+  }
+
+
+}
+
+
+@media (max-width: 400px) {
+  .list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .list .list-item li {
+    margin-bottom: 4px;
+
+  }
+
+  .btn .submitbtn {
+
+    width: 100% !important;
+  }
+}
